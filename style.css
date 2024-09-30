@@ -1,0 +1,81 @@
+/* General */
+html, body {
+    height: 100%; /* Asegura que el body ocupe toda la pantalla */
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: 'Arial', sans-serif;
+    background-color: #129af5;
+}
+
+/* Header Styles */
+header {
+    background-color: #ee0d0d;
+    color: white;
+    padding: 50px 0;
+    text-align: center;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4);
+}
+
+header h1 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+header h2 {
+    font-size: 1.75rem;
+    margin-top: 10px;
+    font-style: italic;
+}
+
+/* Info Section */
+.info {
+    margin: 30px auto;
+    max-width: 800px;
+    text-align: center;
+    color: white;
+}
+
+.info h2 {
+    font-size: 2.5rem;
+    color: white;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.4);
+}
+
+.info p {
+    font-size: 1.25rem;
+    color: #f0f0f0;
+}
+
+/* Image */
+.imagen {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.imagen img {
+    max-width: 80%;
+    height: auto;
+    border-radius: 15px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* Footer */
+footer {
+    background-color: #f8f9fa;
+    padding: 20px 0;
+    text-align: center;
+    color: #6c757d;
+    font-size: 0.9rem;
+    border-top: 2px solid #e0e0e0;
+    width: 100%;
+    margin-top: auto; /* Empuja el footer al final */
+}
+
+footer p {
+    margin: 0;
+}
